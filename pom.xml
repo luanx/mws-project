@@ -4,8 +4,8 @@
   <groupId>com.wantdo</groupId>
   <artifactId>mws-project</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <packaging>pom</packaging>
   <name>mws :: project</name>
+  <packaging>pom</packaging>
 
   <description>mws-project is a spring framework based javaee application reference architecture.</description>
   <url>https://github.com/luanx/mws-project</url>
@@ -39,5 +39,10 @@
     <connection>scm:git:git://github.com/luanx/mws-project.git</connection>
     <developerConnection>scm:git:ssh://git@github.com:luanx/mws-project.git</developerConnection>
   </scm>
+
+  <modules>
+    <module>modules</module>
+    <module>services</module>
+  </modules>
   
 </project>
